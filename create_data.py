@@ -3,7 +3,7 @@ from itertools import count
 import cv2, os
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'datasets'
-sub_data = 'Hanis'
+sub_data = 'Ronaldo'
 
 path = os.path.join(datasets, sub_data) #inside the dataset folder
 if not os.path.isdir(path):
